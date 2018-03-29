@@ -1,0 +1,6 @@
+[ubuntu]
+192.168.221.154
+
+[ubuntu:vars]
+username=micastel
+password=Buddyboy.34
