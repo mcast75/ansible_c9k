@@ -1,0 +1,31 @@
+---
+- name: TEST
+  hosts: local
+  connection: netconf
+
+
+  tasks:
+    - name: enable interface
+      netconf_config:
+        host: 192.168.100.10
+        username: admin
+        password: ciscopsdt
+        xml: |
+            <config xmlns:xc="urn:ietf:params:xml:ns:netconf:base:1.0">
+                <interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
+                    <interface>
+                        <name>Te1/0/2</name>
+                        <enabled>false</enabled>
+                    </interface>
+                </interfaces>
+            </config>
+
+
+
+
+
+
+
+
+      
+

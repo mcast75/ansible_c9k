@@ -5,3 +5,7 @@ password=ciscopsdt
 
 [cat_sandbox]
 10.10.20.100
+
+[local_dev]
+192.168.100.10
+
