@@ -1,0 +1,7 @@
+[cat_sandbox:vars]
+ansible_port=830
+ansible_python_interpreter="/usr/bin/env python"
+password=ciscopsdt
+
+[cat_sandbox]
+10.10.20.100
